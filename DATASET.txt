@@ -8,6 +8,12 @@ Total Images: 18,998 annotated images
 Split: ~80% train / ~20% validation
 Format: YOLO TXT (bounding boxes + class labels)
 
+## Annotated Output Video
+
+**traffic_annotated.mp4:** https://youtu.be/FxEahIU3VBM
+
+YOLOv8s applied frame-by-frame to a 30-second traffic video. Colour-coded bounding boxes per class with live vehicle count overlay. 27 FPS, mean 9.3 vehicles per frame.
+
 Download Links
 --------------
 
