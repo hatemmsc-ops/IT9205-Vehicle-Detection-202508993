@@ -1,0 +1,32 @@
+IT9205 — Vehicles-COCO Dataset
+===============================
+
+Dataset: Vehicles-COCO v1
+Source: Roboflow Universe
+Classes: car, bus, truck, motorcycle (4 classes)
+Total Images: 18,998 annotated images
+Split: ~80% train / ~20% validation
+Format: YOLO TXT (bounding boxes + class labels)
+
+Download Links
+--------------
+
+Roboflow:
+https://universe.roboflow.com/vehicle-mscoco/vehicles-coco/dataset/1
+
+Google Drive (pre-downloaded, ready to use in Colab):
+https://drive.google.com/drive/folders/1_Hz9Y_uSOp9R5kzDTYFWPer-sU0PpZIw?usp=sharing
+
+Project Resources (trained models, ONNX export, annotated video):
+https://drive.google.com/drive/folders/11hea6LhgtfPQFVFdkjJ1-dK-UKfLNcoY?usp=sharing
+
+Setup Instructions
+------------------
+
+1. Download the dataset from one of the links above.
+2. Upload to your Google Drive.
+3. Update DATASET_PATH in each notebook:
+
+   DATASET_PATH = pathlib.Path('/content/drive/MyDrive/.../Vehicles-coco.v1-new-vehicle-dataset.yolov8')
+
+4. Run notebooks in order: PartA -> PartB -> PartC -> PartF
