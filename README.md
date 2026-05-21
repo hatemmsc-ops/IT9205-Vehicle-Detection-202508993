@@ -8,6 +8,14 @@
 
 ---
 
+## Annotated Output Video
+
+**traffic_annotated.mp4:** https://youtu.be/FxEahIU3VBM
+
+YOLOv8s applied frame-by-frame to a 30-second traffic video. Colour-coded bounding boxes per class with live vehicle count overlay. 27 FPS, mean 9.3 vehicles per frame.
+
+---
+
 ## Project Overview
 
 A complete computer vision pipeline for vehicle classification and detection in real-world traffic scenes, built on the Vehicles-COCO dataset.
@@ -48,18 +56,19 @@ A complete computer vision pipeline for vehicle classification and detection in 
 ## Repository Structure
 
 ```
-├── 202508993_PartA.ipynb             # Image preprocessing pipeline (CLAHE, HSV, Canny, augmentation)
-├── 202508993_PartA_output.pdf        # Rendered output with visualisations
-├── 202508993_PartB.ipynb             # ResNet50 classifier + YOLOv8s detector + video inference
+├── 202508993_PartA.ipynb                              # Image preprocessing pipeline (CLAHE, HSV, Canny, augmentation)
+├── 202508993_PartA_output.pdf                         # Rendered output with visualisations
+├── 202508993_PartB.ipynb                              # ResNet50 classifier + YOLOv8s detector + video inference
 ├── 202508993_PartB_output.pdf
-├── 202508993_PartC.ipynb             # Evaluation, ablation, error analysis, SOTA comparison
+├── 202508993_PartC.ipynb                              # Evaluation, ablation, error analysis, SOTA comparison
 ├── 202508993_PartC_final.pdf
-├── 202508993_PartF.ipynb             # Cross-task pipeline + ONNX edge deployment
+├── 202508993_PartF.ipynb                              # Cross-task pipeline + ONNX edge deployment
 ├── 202508993_PartF_final.pdf
+├── compressed_traffic_annotated.mp4                   # Compressed annotated output video
 ├── IT9205_Topic_Proposal_Hatem_Isa_202508993_Approved.pdf
-├── DATASET.txt                       # Dataset download links and Colab setup instructions
-├── references.zip                    # Papers 1-7 (Chang, He, Ioffe, Padilla, Pan, Redmon, Reis)
-└── references2.zip                   # Papers 8-13 (Rishika, Sandler, Shorten, Stainton, Supriya, Yaseen)
+├── DATASET.txt                                        # Dataset download links and Colab setup instructions
+├── references.zip                                     # Papers 1-7 (Chang, He, Ioffe, Padilla, Pan, Redmon, Reis)
+└── references2.zip                                    # Papers 8-13 (Rishika, Sandler, Shorten, Stainton, Supriya, Yaseen)
 ```
 
 ---
@@ -80,7 +89,7 @@ A complete computer vision pipeline for vehicle classification and detection in 
 
 **Google Drive (pre-downloaded):** https://drive.google.com/drive/folders/1_Hz9Y_uSOp9R5kzDTYFWPer-sU0PpZIw?usp=sharing
 
-**Project resources (trained models, ONNX export, annotated video):** https://drive.google.com/drive/folders/11hea6LhgtfPQFVFdkjJ1-dK-UKfLNcoY?usp=sharing
+**Project resources (trained models, ONNX export, full-quality annotated video):** https://drive.google.com/drive/folders/11hea6LhgtfPQFVFdkjJ1-dK-UKfLNcoY?usp=sharing
 
 ---
 
