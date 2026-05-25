@@ -8,6 +8,14 @@ Total Images: 18,998 annotated images
 Split: ~80% train / ~20% validation
 Format: YOLO TXT (bounding boxes + class labels)
 
+## Demo Video
+
+**COCO Vehicle Labs.mov:** https://youtu.be/WMPKN1A92TI
+
+Screen recording walkthrough of all four notebooks (Part A, B, C, F) 
+with audio narration explaining design decisions, model architecture, 
+training results, and evaluation at every stage.
+
 ## Annotated Output Video
 
 **traffic_annotated.mp4:** https://youtu.be/FxEahIU3VBM
