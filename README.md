@@ -7,6 +7,13 @@
 **Submission Date:** 30 May 2026
 
 ---
+## Demo Video
+
+**COCO Vehicle Labs.mov:** https://youtu.be/WMPKN1A92TI
+
+Screen recording walkthrough of all four notebooks (Part A, B, C, F) 
+with audio narration explaining design decisions, model architecture, 
+training results, and evaluation at every stage.
 
 ## Annotated Output Video
 
